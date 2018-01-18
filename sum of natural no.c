@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-void main()
+int main()
 {
 int n,sum=0;
 for(i=0;i<=n;i++)
@@ -8,4 +8,5 @@ for(i=0;i<=n;i++)
 sum=sum+i;
 }
 printf("the sum is",sum);
+return 0;
 }
