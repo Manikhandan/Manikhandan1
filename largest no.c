@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<conio.h>
-void main()
+int main()
 {
 int num1,num2,num3;
 printf("enter the number num1,num2,num3);
@@ -22,4 +22,5 @@ printf("num2 is a  largest");
 else
 {
 printf("num3 is a  largest");
+return 0;
 }
