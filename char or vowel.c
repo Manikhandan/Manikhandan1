@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
 char c={'a','e'.'i','o','u'};
 char a;
@@ -11,5 +11,6 @@ printf("vowel");
 else
 {
 printf("consonant");
+return 0;
 }
 }
