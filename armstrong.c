@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <math.h>
  
-void main()
+ int main()
 {
     int number, sum = 0, rem = 0, cube = 0, temp;
  
@@ -19,4 +19,5 @@ void main()
         printf ("The given no is armstrong no");
     else
         printf ("The given no is not a armstrong no");
+    return 0;
 }
