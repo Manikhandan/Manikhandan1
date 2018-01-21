@@ -1,5 +1,5 @@
 #include<stdio.h>
-void main()
+int main()
 {
 int low,high,i,f,t,tmp;
 printf("enter the two number");
@@ -20,5 +20,6 @@ break;
 if(f==0)
 printf("%d",low);
 ++low;
+return 0;
 }
 }
