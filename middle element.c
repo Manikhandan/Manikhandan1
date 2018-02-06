@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-void main()
+int main()
 {
   int i,b,a;
   char str[10];
@@ -14,4 +14,5 @@ void main()
   {
     printf("%c",str[i]);
   }
+return 0;
 }
