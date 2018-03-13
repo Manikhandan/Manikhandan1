@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-float a,b;
-double c;
-scanf("%f %f",&a,&b);
-c=a*b;
-printf("%lf",c);
+float x,y;
+double z;
+scanf("%f %f",&x,&y);
+z=x*y;
+printf("%lf",z);
 return 0;
 }
